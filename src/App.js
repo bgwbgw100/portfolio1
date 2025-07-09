@@ -13,6 +13,7 @@ const FullpageWrapper = () => (
   <ReactFullpage
     //fullpage options
     licenseKey={'YOUR_KEY_HERE'} // You can leave this for development
+    responsiveWidth={768}
     scrollingSpeed={1000} /* Options here */
 
     render={({ state, fullpageApi }) => {
