@@ -16,7 +16,7 @@ const About = () => {
             <h3><i class="fas fa-graduation-cap"></i> 학력</h3>
             <p><strong>배재대학교 컴퓨터수학과</strong> (2015.03 ~ 2021.08)</p>
             <ul>
-              <li>C, Java, Python 기초를 배우며 프로그래밍에 흥미를 느낌</li>
+              <li>C++, Java, Python 기초를 배우며 프로그래밍에 흥미를 느낌</li>
             </ul>
           </div>
           <div className="about-item">

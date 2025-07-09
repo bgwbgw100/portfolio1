@@ -3,11 +3,11 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import 'fullpage.js/dist/fullpage.min.css';
 import './App.css';
 
+import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
-import Footer from './components/Footer';
 
 const FullpageWrapper = () => (
   <ReactFullpage
@@ -19,19 +19,17 @@ const FullpageWrapper = () => (
       return (
         <ReactFullpage.Wrapper>
           <div className="section">
+            <Home />
+          </div>
+          <div className="section">
             <About />
           </div>
           <div className="section">
             <Experience />
           </div>
-          {/* 
           <div className="section">
             <Skills />
           </div>
-          <div className="section">
-            <Footer />
-          </div>
-          */}
         </ReactFullpage.Wrapper>
       );
     }}
