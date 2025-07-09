@@ -34,3 +34,9 @@
   letter-spacing: 0.5rem;
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 3.5rem; /* 모바일 화면용 폰트 크기 */
+  }
+}
