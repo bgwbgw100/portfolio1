@@ -56,6 +56,7 @@ const experiences = [
             <li><b>Database:</b> MongoDB</li>
             <li><b>Infra:</b> Docker, Nginx, Naver Cloud, GitHub</li>
             <li><b>URL:</b> <a href="https://www.dnf-info.com" target="_blank" rel="noopener noreferrer">www.dnf-info.com</a></li>
+            <li><b>IDE:</b> Windsurf, VSCode</li>
           </ul>
         </div>
         <div className="details-column">
@@ -70,7 +71,6 @@ const experiences = [
           <ul>
             <li>캐시아이템 실시간 골드 환산</li>
             <li>내실 업그레이드 로드맵</li>
-            <li>모바일 환경 UI제공</li>
           </ul>
         </div>
       </div>
